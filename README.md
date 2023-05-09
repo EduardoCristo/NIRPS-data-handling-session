@@ -77,7 +77,7 @@ And that is it! You can now test if it is running properly with the provided exa
 ****
 
 
-## Install Line-by-line code
+## Install the Line-by-line code
 
 
 Clone the repository to the folder created before
