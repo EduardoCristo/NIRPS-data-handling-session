@@ -76,7 +76,31 @@ And that is it! You can now test if it is running properly with the provided exa
 ****
 ****
 
+
 ## Install Line-by-line code
 
 
+Clone the repository to the folder created before
 
+``` bash
+>>> git clone https://github.com/njcuk9999/lbl
+```
+Go to the Line-by-line code folder
+
+``` bash
+>>> cd lbl
+```
+
+Install it
+
+``` bash
+>>> pip install -U -e .
+```
+#
+## Data to download
+
+Click the below links to download the required data:
+
+[NIRPS APERO data](https://udemontreal-my.sharepoint.com/personal/charles_cadieux_1_umontreal_ca/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcharles%5Fcadieux%5F1%5Fumontreal%5Fca%2FDocuments%2FPROXIMA%5FNIRPS%5FHE%5FAPERO%2Etar&parent=%2Fpersonal%2Fcharles%5Fcadieux%5F1%5Fumontreal%5Fca%2FDocuments&ga=1)
+
+[NIRPS DRS data](https://udemontreal-my.sharepoint.com/personal/charles_cadieux_1_umontreal_ca/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcharles%5Fcadieux%5F1%5Fumontreal%5Fca%2FDocuments%2FPROXIMA%5FNIRPS%5FHE%5FESO%2Etar&parent=%2Fpersonal%2Fcharles%5Fcadieux%5F1%5Fumontreal%5Fca%2FDocuments&ga=1)
