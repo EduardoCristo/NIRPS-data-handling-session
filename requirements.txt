@@ -1,9 +1,4 @@
-os
-multiprocessing
-glob
 lmfit
-functools
-warnings
 numpy==1.23.5
 astropy==5.2.1
 Bottleneck==1.3.6
