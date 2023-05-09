@@ -1,6 +1,6 @@
 # NIRPS-data-handling-session
 
-## -> Clone the current repository
+## Clone the current repository
 
 First create a folder in a convenient place before cloning it. Let's assume, to five an example, that we create the [place_a_name_here] folder on the home directory. From the terminal:
 
@@ -19,7 +19,7 @@ Finally navigate to the repository folder:
 >>> cd NIRPS-data-handling-session
 ```
 
-## -> Create a conda environment and install the required packages
+## Create a conda environment and install the required packages
 
 Lets start by creating a NIRPS_dhs conda environment running python 3.9
 
@@ -39,7 +39,7 @@ Install the requirements for all the packages we will be using.
 >>> pip install -r requirements.txt
 ```
 
-## -> Make NIRPS_dhs appear as a kernel in jupyter
+## Make NIRPS_dhs appear as a kernel in jupyter
 
 Start to install ipython to the NIRPS_dhs environment
 
@@ -53,3 +53,30 @@ Make the connection between the environment and jupyter
 ```
 
 Start jupyter and check if NIRPS_dhs is one of the available kernels.
+
+****
+****
+
+## Install Romain Allart's telluric correction tool
+The tool itself does not require anything more to install other than the requirements, which were dealt already. The telluric correction is performed inside the folder structure provided in the repository.
+
+Clone the repository to the folder created before:
+
+``` bash
+>>> git clone https://github.com/RomainAllart/Telluric_correction.git
+```
+
+And that is it! You can now test if it is running properly with the provided example:
+
+``` bash
+>>> cd Telluric_correction
+>>> python run_telluric_correction.py
+```
+
+****
+****
+
+## Install Line-by-line code
+
+
+
