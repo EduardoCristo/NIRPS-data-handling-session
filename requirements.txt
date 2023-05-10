@@ -1,3 +1,6 @@
+pandas
+alphashape
+rpy2
 lmfit
 numpy==1.23.5
 astropy==5.2.1
